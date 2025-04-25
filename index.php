@@ -59,6 +59,72 @@ require_once "libs/header.php";
     </div>
 </section>
 
+<!--Galerie ville accessible par Ecoride-->
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Visitez ces villes grace à Ecoride</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">De nouveaux trajets sont proposés régulièrement grace à notre grande communauté ! </p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="asset\image\paris.webp">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                        <h1 class="title-font text-lg font-medium text-green-500 mb-3">Paris</h1>
+                        <p class="leading-relaxed">Une balade romantique à chaque coin de rue, entre monuments iconiques et terrasses ensoleillées</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="asset\image\lille.webp">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                        <h1 class="title-font text-lg font-medium text-green-500 mb-3">Lille</h1>
+                        <p class="leading-relaxed">Un concentré de bonne humeur, de culture et d’authenticité dans le Nord au grand cœur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="asset\image\lyon.webp">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                        <h1 class="title-font text-lg font-medium text-green-500 mb-3">Lyon</h1>
+                        <p class="leading-relaxed">Un mélange parfait de gastronomie, patrimoine et douceur de vivre au bord des deux fleuves.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="asset\image\nice.webp">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                        <h1 class="title-font text-lg font-medium text-green-500 mb-3">Nice</h1>
+                        <p class="leading-relaxed">Soleil, mer turquoise et palmiers… l’évasion méditerranéenne par excellence.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="asset\image\strasbourg.webp">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                        <h1 class="title-font text-lg font-medium text-green-500 mb-3">Strasbourg</h1>
+                        <p class="leading-relaxed">Un souffle de tradition et de charme alsacien au fil des canaux.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="asset\image\toulouse.webp">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                        <h1 class="title-font text-lg font-medium text-green-500 mb-3">Toulouse</h1>
+                        <p class="leading-relaxed">Une ville chaleureuse au charme du Sud, entre briques roses et ambiance conviviale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php
 
